@@ -4,6 +4,7 @@
 <head>
     <title>Fastfood restaturan</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- add css file -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font_style.css">
@@ -14,8 +15,8 @@
 <body>
     <!-- Navigation section -->
 
-    <div class="navigation_bar">
-        <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <div class="on_top hide_small">
+        <div class="navigation_bar xlarge black opacity hover_opacity_off" id="myNavbar">
             <a href="#home" class="navigation_bar_item button">HOME</a>
             <a href="#special" class="navigation_bar_item button">SPECIALS</a>
             <a href="#about" class="navigation_bar_item button">ABOUT</a>
@@ -25,20 +26,57 @@
         </div>
     </div>
 
-    <!-- Header with image -->
+    <!-- Home with image -->
 
-    <header class="bgimg w3-display-container w3-grayscale-min" id="home">
-        <div class="w3-display-bottomleft w3-padding">
-            <span class="w3-tag w3-xlarge">Open from 10am to 12pm</span>
+    <header class="background_img display_container grayscale_min" id="home">
+        <div class="display_bottomleft padding">
+            <span class="tag xlarge">Open from 10am to 12pm</span>
         </div>
-        <div class="w3-display-middle w3-center">
-            <span class="w3-text-white w3-hide-small" style="font-size:100px">FAST FOOD <br>RESTAURANT</span>
-            <p><a href="#menu" class="w3-button w3-xxlarge w3-black">Let me see the menu</a></p>
+        <div class="display_middle center">
+            <span class="text_white hide_small" style="font-size:100px">FAST FOOD <br>RESTAURANT</span>
+            <span class="text_white hide_large hide_medium" style="font-size:60px"><b>FAST FOOD<br>RESTAURANT</b></span>
+            <p><a href="#menu" class="button xxlarge black centered">go to the menu</a></p>
         </div>
     </header>
 
+    <!-- Specials section -->
+
+    <section id="special" class="container-fluid">
+
+        <div class="heading text-center">
+            <h1>our <span>special</span></h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, atque.</p>
+        </div>
+
+
+        <div class="card-container">
+
+            <div class="card">
+                <img src="images/card1.jpg" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque eum nam, officia porro dicta
+                    molestiae! Veniam, nemo aliquid. Repellat, iste.</p>
+                <a href="#"><button>read more</button></a>
+            </div>
+
+            <div class="card">
+                <img src="images/card2.jpg" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque eum nam, officia porro dicta
+                    molestiae! Veniam, nemo aliquid. Repellat, iste.</p>
+                <a href="#"><button>read more</button></a>
+            </div>
+
+            <div class="card">
+                <img src="images/card3.jpg" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque eum nam, officia porro dicta
+                    molestiae! Veniam, nemo aliquid. Repellat, iste.</p>
+                <a href="#"><button>read more</button></a>
+            </div>
+
+        </div>
+
+    </section>
     <!-- About Container -->
-    <section class="about-section">
+    <section class="about-section" id="about">
 
         <div class="heading_text_about">
             <h1>About</h1>
@@ -119,7 +157,7 @@
     </section>
 
     <!-- Image of location/map -->
-    <section class="location_section">
+    <section class="location_section" id="location">
 
         <div class="heading_text_about">
             <h1>Location</h1>
