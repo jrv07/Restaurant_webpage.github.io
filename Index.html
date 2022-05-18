@@ -5,21 +5,198 @@
     <title>Fastfood restaturan</title>
     <meta charset="UTF-8">
     <!-- add css file -->
-    <!-- add js file -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font_style.css">
+    <!-- add font file -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
 </head>
 
 <body>
-    <!-- Navigationbar (always on the top)-->
+    <!-- Navigation section -->
+
+    <div class="navigation_bar">
+        <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+            <a href="#home" class="navigation_bar_item button">HOME</a>
+            <a href="#special" class="navigation_bar_item button">SPECIALS</a>
+            <a href="#about" class="navigation_bar_item button">ABOUT</a>
+            <a href="#menu" class="navigation_bar_item button">MENU</a>
+            <a href="#location" class="navigation_bar_item button">LOCATION</a>
+            <a href="#contact" class="navigation_bar_item button">CONTACT</a>
+        </div>
+    </div>
 
     <!-- Header with image -->
 
-    <!-- Menu Container -->
+    <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+        <div class="w3-display-bottomleft w3-padding">
+            <span class="w3-tag w3-xlarge">Open from 10am to 12pm</span>
+        </div>
+        <div class="w3-display-middle w3-center">
+            <span class="w3-text-white w3-hide-small" style="font-size:100px">FAST FOOD <br>RESTAURANT</span>
+            <p><a href="#menu" class="w3-button w3-xxlarge w3-black">Let me see the menu</a></p>
+        </div>
+    </header>
 
     <!-- About Container -->
+    <section class="about-section">
+
+        <div class="heading_text_about">
+            <h1>About</h1>
+        </div>
+
+        <div class="about_content">
+            <p>The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p><strong>The Chef?</strong> Mr. Italiano himself<img src="/w3images/chef.jpg" style="width:150px"
+                    class="w3-circle w3-right" alt="Chef"></p>
+
+            <p>We are proud of our interiors.</p>
+            <img src="/w3images/onepage_restaurant.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom"
+                alt="Restaurant">
+
+            <h1><b>Opening Hours</b></h1>
+
+            <div class="text_in_rows">
+                <div class="text_in_column_1">
+                    <p>Mon & Tue CLOSED</p>
+                    <p>Wednesday 10.00 - 24.00</p>
+                    <p>Thursday 10:00 - 24:00</p>
+                </div>
+                <div class="text_in_column_2">
+                    <p>Friday 10:00 - 12:00</p>
+                    <p>Saturday 10:00 - 23:00</p>
+                    <p>Sunday Closed</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Menu Container -->
+
+    <section id="menu" class="parallax-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-offset-2 col-md-8 col-sm-12 text-center">
+                    <h1 class="heading">Menu</h1>
+                    <hr>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <h4>Lemon-Rosemary Vegetable ................ <span>€20.50</span></h4>
+                    <h5>Chicken / Rosemary / Lemon</h5>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <h4>Lemon-Rosemary Meat ........................... <span>€30.50</span></h4>
+                    <h5>Meat / Rosemary / Lemon</h5>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <h4>Lemon-Rosemary Pork ........................ <span>€40.75</span></h4>
+                    <h5>Pork / Tooplate / Lemon</h5>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <h4>Orange-Rosemary Salad .......................... <span>€55.00</span></h4>
+                    <h5>Salad / Rosemary / Orange</h5>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <h4>Lemon-Rosemary Squid ...................... <span>€65.00</span></h4>
+                    <h5>Squid / Rosemary / Lemon</h5>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <h4>Orange-Rosemary Shrimp ........................ <span>€70.50</span></h4>
+                    <h5>Shrimp / Rosemary / Orange</h5>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <h4>Lemon-Rosemary Prawn ................... <span>€110.75</span></h4>
+                    <h5>Chicken / Rosemary / Lemon</h5>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <h4>Lemon-Rosemary Seafood ..................... <span>€220.50</span></h4>
+                    <h5>Seafood / Rosemary / Lemon</h5>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Image of location/map -->
+    <section class="location_section">
+
+        <div class="heading_text_about">
+            <h1>Location</h1>
+            <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;" id="myMap">
+        </div>
+        <div class="address">
+            <p><i class="fa fa-map-marker"></i>Our Adderess</p>
+            <h4>120 Duis aute irure, California, USA</h4>
+        </div>
+    </section>
 
     <!-- Contact -->
 
+    <section id="contact" class="container-fluid">
+
+        <div class="heading text-center">
+            <h1>contact</h1>
+        </div>
+
+        <div class="ph">
+            <p>Find us at above address or call us at 05050515-122330</p>
+            <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We
+                understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look
+                and taste.</p>
+            <p class="w3-xxlarge"><strong>Reserve</strong> a table, ask for today's special or just send us a message:
+            </p>
+        </div>
+
+        <div class="row justify-content-center">
+
+            <form action="" class="col-md-7">
+
+                <div class="inputBox">
+                    <input type="text" required>
+                    <h3>full name</h3>
+                </div>
+
+                <div class="inputBox">
+                    <input type="email" required>
+                    <h3>e-mail</h3>
+                </div>
+
+                <div class="inputBox">
+                    <textarea required name="" id="" cols="30" rows="10"></textarea>
+                    <h3>message</h3>
+                </div>
+
+                <input type="submit" value="send">
+
+
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="parallax-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <h2 class="heading">Follow Us</h2>
+                    <ul class="social-icon">
+                        <li><a href="#" class="fa fa-facebook wow bounceIn" data-wow-delay="0.3s"></a></li>
+                        <li><a href="#" class="fa fa-twitter wow bounceIn" data-wow-delay="0.6s"></a></li>
+                        <li><a href="#" class="fa fa-behance wow bounceIn" data-wow-delay="0.9s"></a></li>
+                        <li><a href="#" class="fa fa-dribbble wow bounceIn" data-wow-delay="0.9s"></a></li>
+                        <li><a href="#" class="fa fa-github wow bounceIn" data-wow-delay="0.9s"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
+
+<!-- JAVASCRIPT JS FILES -->
+
+</html>
