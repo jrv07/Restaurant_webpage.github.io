@@ -15,6 +15,10 @@
     filter: grayscale(50%)
 }
 
+.grayscale {
+    filter: grayscale(75%)
+}
+
 .display_bottomleft {
     position: absolute;
     left: 0;
@@ -200,4 +204,74 @@ button {
 .opacity_off,
 .hover_opacity_off:hover {
     opacity: 1
+}
+
+/* Location */
+
+.address_text {
+    font-size: 12px;
+    padding-right: 10px;
+}
+
+.container:after,
+.container:before {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.container {
+    padding: 0.01em 16px
+}
+
+.padding_64 {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important
+}
+
+.red,
+.hover_red:hover {
+    color: #fff !important;
+    background-color: #f44336 !important
+}
+
+.center {
+    display: inline-block;
+    width: auto
+}
+
+.center {
+    text-align: center
+}
+
+@media (max-width:992px) {
+    .w3-center {
+        text-align: center !important
+    }
+}
+
+/* Menu */
+
+.menu_section {
+    background-attachment: fixed !important;
+    background-size: cover !important;
+}
+
+.row {
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+}
+
+.menu_col_md_8 {
+    padding-bottom: 42px;
+}
+
+.menu_col_md_6 {
+    padding-bottom: 18px;
+}
+
+.blue_gray {
+    color: #fff !important;
+    background-color: #607d8b !important
 }
