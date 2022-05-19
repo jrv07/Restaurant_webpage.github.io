@@ -3,23 +3,19 @@
 .menu_section {
     background-attachment: fixed !important;
     background-size: cover !important;
+    text-align: center;
 }
 
-.row {
+#menu .row {
     -webkit-flex-flow: row nowrap;
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
 }
 
-.menu_col_md_8 {
+#menu .menu_col_md_8 {
     padding-bottom: 42px;
 }
 
-.menu_col_md_6 {
+#menu .menu_col_md_6 {
     padding-bottom: 18px;
-}
-
-.blue_gray {
-    color: #fff !important;
-    background-color: #607d8b !important
 }
