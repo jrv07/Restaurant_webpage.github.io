@@ -2,13 +2,13 @@
 .background_img {
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("/images/Restaurant_home.jpg");
-    min-height: 90%;
-    min-width: 90%;
+    background-image: url("/Restaurant_webpage/images/Restaurant_home.jpg");
+    min-height: 100%;
+    min-width: 100%;
 }
 
 #home .container {
-    position: relative
+    position: relative;
 }
 
 #home .tag {

@@ -9,3 +9,22 @@
 #about .heading {
     text-align: center;
 }
+
+* {
+    box-sizing: border-box;
+}
+  
+#about .row {
+    display: flex;
+}
+  
+#about .column {
+    flex: 50%;
+    padding: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
