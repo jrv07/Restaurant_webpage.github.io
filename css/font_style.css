@@ -9,9 +9,17 @@ body,
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 button {
     font-family: "Amatic SC", sans-serif
+}
+
+.text_arial {
+    font-family: Arial;
+    font-size: 16px;
+}
+
+@media (min-width:630px) {
+    .text_arial {
+        font-size: 24px;
+    }
 }
