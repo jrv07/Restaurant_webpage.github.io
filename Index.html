@@ -121,9 +121,9 @@
             <img src="images/Restaurant_Interior.jpg" style="width:100%" class="margin_top margin_bottom"
                 alt="Restaurant interior">
 
-            <h1><b>Opening Hours</b></h1>
+            <h1 class="heading padding_16"><b>Opening Hours</b></h1>
 
-            <div class="row text_arial">
+            <div class="row center">
                 <div class="column">
                     <p>Mon & Tue CLOSED</p>
                     <p>Wednesday 10.00 - 24.00</p>
@@ -141,44 +141,122 @@
 
     <!-- Menu section -->
 
-    <section id="menu" class="menu_section">
-        <div class="container padding_64 red grayscale_min xlarge">
-            <h1 class="heading jumbo" style="margin-bottom:64px">The Menu</h1>
-            <div class="row text_arial" style="margin-bottom:64px">
-                <div>
-                    <h4>Lemon-Rosemary Vegetable ................ <span>€20.50</span></h4>
-                    <h5>Chicken / Rosemary / Lemon</h5>
-                </div>
-                <div>
-                    <h4>Lemon-Rosemary Meat ........................... <span>€20.50</span></h4>
-                    <h5>Meat / Rosemary / Lemon</h5>
-                </div>
-                <div>
-                    <h4>Lemon-Rosemary Pork ........................ <span>€14.75</span></h4>
-                    <h5>Pork / Tooplate / Lemon</h5>
-                </div>
-                <div>
-                    <h4>Orange-Rosemary Salad .......................... <span>€15.00</span></h4>
-                    <h5>Salad / Rosemary / Orange</h5>
-                </div>
-                <div>
-                    <h4>Lemon-Rosemary Squid ...................... <span>€15.00</span></h4>
-                    <h5>Squid / Rosemary / Lemon</h5>
-                </div>
-                <div>
-                    <h4>Orange-Rosemary Shrimp ........................ <span>€17.50</span></h4>
-                    <h5>Shrimp / Rosemary / Orange</h5>
-                </div>
-                <div>
-                    <h4>Lemon-Rosemary Prawn ................... <span>€10.75</span></h4>
-                    <h5>Chicken / Rosemary / Lemon</h5>
-                </div>
-                <div>
-                    <h4>Lemon-Rosemary Seafood ..................... <span>€20.50</span></h4>
-                    <h5>Seafood / Rosemary / Lemon</h5>
-                </div>
+    <section id="menu" class="container padding_64 olivegreen xxlarge">
+        <div class="content">
+            <h1 class="heading jumbo text_white" style="margin-bottom:64px">The Menu</h1>
+
+            <div class="row center border border-dark-gray">
+                <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');" id="myLink">
+                    <div class="col s4 tablink padding_large hover_red text_white black">Starter</div>
+                </a>
+                <a href="javascript:void(0)" onclick="openMenu(event, 'Burger');">
+                    <div class="col s4 tablink padding_large hover_red text_white black">Burger</div>
+                </a>
+                <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');">
+                    <div class="col s4 tablink padding_large hover_red text_white black">Pizza</div>
+                </a>
+                <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">
+                    <div class="col s4 tablink padding_large hover_red text_white black">Pasta</div>
+                </a>
+                <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+                    <div class="col s4 tablink padding_large hover_red text_white black">Drinks</div>
+                </a>
+                <a href="javascript:void(0)" onclick="openMenu(event, 'Dessert');">
+                    <div class="col s4 tablink padding_large hover_red text_white black">Dessert</div>
+                </a>
             </div>
-            <p><a href="#contact" class="button xxlarge black heading">got to reservation</a></p>
+
+            <div id="Burger" class="container menu padding_32 white text_arial">
+                <h1><b>Margherita</b> <span class="right tag dark_grey round">$12.50</span></h1>
+                <p class="text_grey">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+                <hr>
+
+                <h1><b>Formaggio</b> <span class="right tag dark_grey round">$15.50</span></h1>
+                <p class="text_grey">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+                <hr>
+            </div>
+
+            <div id="Pizza" class="container menu padding_32 white text_arial">
+                <h1><b>Margherita</b> <span class="right tag dark_grey round">$12.50</span></h1>
+                <p class="text_grey">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+                <hr>
+
+                <h1><b>Formaggio</b> <span class="right tag dark_grey round">$15.50</span></h1>
+                <p class="text_grey">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+                <hr>
+            </div>
+
+            <div id="Pasta" class="container menu padding_32 white text_arial">
+                <h1><b>Lasagna</b> <span class="tag grey round">Popular</span> <span
+                        class="right tag dark_grey round">$13.50</span></h1>
+                <p class="text_grey">Special sauce, mozzarella, parmesan, ground beef</p>
+                <hr>
+
+                <h1><b>Ravioli</b> <span class="right tag dark_grey round">$14.50</span></h1>
+                <p class="text_grey">Ravioli filled with cheese</p>
+                <hr>
+
+                <h1><b>Spaghetti Classica</b> <span class="right tag dark_grey round">$11.00</span></h1>
+                <p class="text_grey">Fresh tomatoes, onions, ground beef</p>
+                <hr>
+
+                <h1><b>Seafood pasta</b> <span class="right tag dark_grey round">$25.50</span></h1>
+                <p class="text_grey">Salmon, shrimp, lobster, garlic</p>
+            </div>
+
+            <div id="Starter" class="container menu padding_32 white text_arial">
+                <h1><b>Today's Soup</b> <span class="tag grey round">Seasonal</span><span
+                        class="right tag dark_grey round">$5.50</span></h1>
+                <p class="text_grey">Ask the waiter</p>
+                <hr>
+
+                <h1><b>Bruschetta</b> <span class="right tag dark_grey round">$8.50</span></h1>
+                <p class="text_grey">Bread with pesto, tomatoes, onion, garlic</p>
+                <hr>
+
+                <h1><b>Garlic bread</b> <span class="right tag dark_grey round">$9.50</span></h1>
+                <p class="text_grey">Grilled ciabatta, garlic butter, onions</p>
+                <hr>
+
+                <h1><b>Tomozzarella</b> <span class="right tag dark_grey round">$10.50</span></h1>
+                <p class="text_grey">Tomatoes and mozzarella</p>
+            </div>
+
+            <div id="Drinks" class="container menu padding_32 white text_arial">
+                <h1><b>Today's Soup</b> <span class="tag grey round">Seasonal</span><span
+                        class="right tag dark_grey round">$5.50</span></h1>
+                <p class="text_grey">Ask the waiter</p>
+                <hr>
+
+                <h1><b>Bruschetta</b> <span class="right tag dark_grey round">$8.50</span></h1>
+                <p class="text_grey">Bread with pesto, tomatoes, onion, garlic</p>
+                <hr>
+
+                <h1><b>Garlic bread</b> <span class="right tag dark_grey round">$9.50</span></h1>
+                <p class="text_grey">Grilled ciabatta, garlic butter, onions</p>
+                <hr>
+
+                <h1><b>Tomozzarella</b> <span class="right tag dark_grey round">$10.50</span></h1>
+                <p class="text_grey">Tomatoes and mozzarella</p>
+            </div>
+
+            <div id="Dessert" class="container menu padding_32 white text_arial">
+                <h1><b>Today's Soup</b> <span class="tag grey round">Seasonal</span><span
+                        class="right tag dark_grey round">$5.50</span></h1>
+                <p class="text_grey">Ask the waiter</p>
+                <hr>
+
+                <h1><b>Bruschetta</b> <span class="right tag dark_grey round">$8.50</span></h1>
+                <p class="text_grey">Bread with pesto, tomatoes, onion, garlic</p>
+                <hr>
+
+                <h1><b>Garlic bread</b> <span class="right tag dark_grey round">$9.50</span></h1>
+                <p class="text_grey">Grilled ciabatta, garlic butter, onions</p>
+                <hr>
+
+                <h1><b>Tomozzarella</b> <span class="right tag dark_grey round">$10.50</span></h1>
+                <p class="text_grey">Tomatoes and mozzarella</p>
+            </div><br>
         </div>
     </section>
 
@@ -219,20 +297,21 @@
 
             <form>
                 <div>
-                    <p><input class="input padding_16 border" type="text" placeholder="Name" required></p>
+                    <p><input class="input padding_16 border text_arial" type="text" placeholder="Name" required></p>
 
-                    <p><input class="input padding_16 border" type="email" placeholder="e-mail adderess" required></p>
+                    <p><input class="input padding_16 border text_arial" type="email" placeholder="e-mail adderess"
+                            required></p>
 
-                    <p><input class="input padding_16 border" type="number" placeholder="How many people" required
-                            name="People"></p>
+                    <p><input class="input padding_16 border text_arial" type="number" placeholder="How many people"
+                            required name="People"></p>
 
-                    <p><input class="input padding_16 border" type="datetime-local" placeholder="Date and time" required
-                            name="date" value="2020-11-16T20:00"></p>
+                    <p><input class="input padding_16 border text_arial" type="datetime-local"
+                            placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
 
-                    <p><input class="input padding_16 border" type="text" placeholder="Message \ Special requirements"
-                            required name="Message"></p>
+                    <p><input class="input padding_16 border text_arial" type="text"
+                            placeholder="Message \ Special requirements" required name="Message"></p>
 
-                    <p><button class="button xlarge black heading message" type="submit">send message</button></p>
+                    <p><button class="button xlarge black heading message text_arial" type="submit">Send</button></p>
                 </div>
             </form>
 
@@ -255,7 +334,7 @@
             <i class="fa fa-linkedin hover_opacity"></i>
         </div>
 
-        <p class="content heading">&copy; copyright @ 2022 by <span>RediSchool</span></p>
+        <p class="content heading text_arial">&copy; copyright @ 2022 by <span>Redi school</span></p>
 
     </footer>
 

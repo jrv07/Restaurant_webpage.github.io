@@ -1,4 +1,4 @@
-// Tabbed Menu
+// Menu
 function openMenu(evt, menuName) {
     var i, x, tablinks;
     x = document.getElementsByClassName("menu");
