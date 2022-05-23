@@ -314,8 +314,9 @@
                     <p><button class="button xlarge black heading message text_arial" type="submit">Send</button></p>
                 </div>
             </form>
-
         </div>
+        <p><strong>on Maps:</strong> You can find us here</p>
+        <div id="map" class="restaurant_location"></div>
 
     </section>
 
@@ -343,5 +344,8 @@
 <!-- JAVASCRIPT FILES -->
 <script src="js/menu.js"></script>
 <script src="js/navbar.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=<YOUR_API_KEY>&callback=initMap&libraries=&v=weekly"
+    async></script>
+<script src="js/google_maps.js"></script>
 
 </html>
