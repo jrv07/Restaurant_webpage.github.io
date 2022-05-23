@@ -365,3 +365,11 @@
     padding-top: 48px !important;
     padding-bottom: 48px !important
 }
+
+.heading {
+    text-align: center
+}
+
+.hover_opacity:hover {
+    opacity: 0.60
+}
