@@ -13,5 +13,3 @@ FrontEnd project for ReDi School 2022
 1. Github Upload: Branches, Commit and merge
 2. Host Website on Github create a Link 
 3. Create 1 Slide PPT
-
-
