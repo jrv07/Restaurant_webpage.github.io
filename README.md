@@ -4,7 +4,7 @@ FrontEnd project for ReDi School 2022
 1. Add video file -> Home section -> Done
 2. Add google maps API -> Location section
 3. Add additional Font -> for p tag -> Done
-4. Add Burger NavBar -> Home section
+4. Add Burger NavBar -> Home section -> Done
 5. Improve Footer -> add social icons -> Done
 6. Connect JS to Menu
 7. CSS styling for About us -> Inline block -> Done

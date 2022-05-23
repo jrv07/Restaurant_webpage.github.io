@@ -25,14 +25,31 @@
 
     <!-- Navigation section -->
 
-    <nav class="on_top hide_small" id="Navbar">
-        <div class="navigation_bar xlarge black opacity hover_opacity_off">
-            <a href="#home" class="navigation_bar_item button">HOME</a>
-            <a href="#special" class="navigation_bar_item button">SPECIALS</a>
-            <a href="#about" class="navigation_bar_item button">ABOUT</a>
-            <a href="#menu" class="navigation_bar_item button">MENU</a>
-            <a href="#location" class="navigation_bar_item button">LOCATION</a>
-            <a href="#contact" class="navigation_bar_item button">CONTACT</a>
+    <nav class="on_top" id="Navbar">
+        <!-- Navigation on big screens -->
+        <div class="navigation_bar bar black card left_align large opacity hover_opacity_off">
+            <a class="bar_item button hide_medium hide_large right padding_large hover_white large black"
+                href="javascript:void(0);" onclick="ActiveNavBar()" title="Hamburger NavBar"><i
+                    class="fa fa-bars"></i></a>
+            <a href="#home" class="navigation_bar_item bar_item hide_small padding_large hover_white button">HOME</a>
+            <a href="#special"
+                class="navigation_bar_item bar_item hide_small padding_large hover_white button">SPECIALS</a>
+            <a href="#about" class="navigation_bar_item bar_item hide_small padding_large hover_white button">ABOUT</a>
+            <a href="#menu" class="navigation_bar_item bar_item hide_small padding_large hover_white button">MENU</a>
+            <a href="#location"
+                class="navigation_bar_item bar_item hide_small padding_large hover_white button">LOCATION</a>
+            <a href="#contact"
+                class="navigation_bar_item bar_item hide_small padding_large hover_white button">CONTACT</a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="bar_block black hide hide_large hide_medium large">
+            <a href="#home" class="bar_item button padding_large">HOME</a>
+            <a href="#special" class="bar_item button padding_large">SPECIALS</a>
+            <a href="#about" class="bar_item button padding_large">ABOUT</a>
+            <a href="#menu" class="bar_item button padding_large">MENU</a>
+            <a href="#location" class="bar_item button padding_large">LOCATION</a>
+            <a href="#contact" class="bar_item button padding_large">CONTACT</a>
         </div>
     </nav>
 
@@ -246,5 +263,6 @@
 
 <!-- JAVASCRIPT FILES -->
 <script src="js/menu.js"></script>
+<script src="js/navbar.js"></script>
 
 </html>

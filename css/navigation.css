@@ -38,3 +38,110 @@
         text-align: center
     }
 }
+
+.bar_item {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    color: white
+}
+
+.bar_item {
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0
+}
+
+.bar_item {
+    text-align: center
+}
+
+@media (max-width:600px) {
+    .bar_item {
+        text-align: center
+    }
+}
+
+
+
+.bar_block {
+    width: 100%
+}
+
+.bar_block {
+    min-width: 100%
+}
+
+.bar_block {
+    width: 100%;
+    text-align: left;
+    padding: 8px 16px
+}
+
+@media (max-width:992px) {
+    .right {
+        float: right !important
+    }
+}
+
+.large {
+    font-size: 18px !important
+}
+
+.red,
+.hover_red:hover {
+    color: #fff !important;
+    background-color: #f44336 !important
+}
+
+.bar {
+    display: inline-block;
+    width: auto
+}
+
+.bar {
+    width: 100%;
+    overflow: hidden
+}
+
+.bar .dropdown_click {
+    position: static;
+    float: left
+}
+
+.bar:before,
+.bar:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+@media (max-width:992px) {
+    .card {
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+    }
+}
+
+.left_align {
+    text-align: left !important
+}
+
+@media (max-width:992px) {
+    .top {
+        position: fixed;
+        width: 100%;
+        z-index: 1
+    }
+
+    .top {
+        top: 0
+    }
+}
