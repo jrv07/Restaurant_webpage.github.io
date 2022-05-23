@@ -3,8 +3,8 @@ function initMap() {
 
     // The location of Geeksforgeeks office
     const restaurant_loc = {
-        lat: 48.135124,
-        lng: 11.581981
+        lat: 48.13247,
+        lng: 11.54319
     };
 
     // Create the map, centered at restaurant_loc
@@ -12,7 +12,12 @@ function initMap() {
         document.getElementById("map"), {
 
         // Set the zoom of the map
-        zoom: 17.56,
+        zoom: 16,
         center: restaurant_loc,
+    });
+
+    var marker = new google.maps.Marker({
+        position: { lat: 48.13247, lng: 11.54319 },
+        map: map
     });
 }
