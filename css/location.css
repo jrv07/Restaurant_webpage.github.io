@@ -36,3 +36,8 @@
         text-align: center !important
     }
 }
+
+#location video {
+    width: 100%;
+    height: auto;
+}

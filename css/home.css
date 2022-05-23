@@ -2,7 +2,7 @@
 .background_img {
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("/Restaurant_webpage/images/Restaurant_home.jpg");
+    background-image: url("/images/Restaurant_home.jpg");
     min-height: 100%;
     min-width: 100%;
 }
