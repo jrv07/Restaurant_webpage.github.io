@@ -10,6 +10,6 @@ FrontEnd project for ReDi School 2022
 7. CSS styling for About us -> Inline block -> Done
 8. CSS styling for Contact -> better look -> Done
 # Criteria for the Project
-1. Github Upload: Branches, Commit and merge
-2. Host Website on Github create a Link 
-3. Create 1 Slide PPT
+1. Github Upload: Branches, Commit and merge -> Done
+2. Host Website on Github create a Link -> Done
+3. Create 1 Slide PPT -> Done
