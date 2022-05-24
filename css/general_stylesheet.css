@@ -433,6 +433,10 @@
     color: #757575 !important
 }
 
+.text_black {
+    color: #000 !important
+}
+
 .grey,
 .hover_grey:hover,
 .gray,
