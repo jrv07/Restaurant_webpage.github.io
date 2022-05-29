@@ -41,8 +41,8 @@
 }
 
 #special .card-container .card:hover {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .text_arial {
