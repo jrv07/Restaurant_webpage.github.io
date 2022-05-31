@@ -14,6 +14,6 @@ FrontEnd project for ReDi School 2022
 2. Host Website on Github create a Link -> Done
 3. Create 1 Slide PPT -> Done
 # Comments from lavnya
-1. Separation of content is not looking good. It is very messy. 
+1. Separation of content is not looking good. It is very messy. -> Corrected
 2. The zoom in zoom out feature is melded opposite I think. -> Corrected 
 3. Also, hover over on Menu - Starter is constant which shouldn't be. -> Corrected
