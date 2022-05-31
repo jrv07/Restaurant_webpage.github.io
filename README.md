@@ -17,3 +17,13 @@ FrontEnd project for ReDi School 2022
 1. Separation of content is not looking good. It is very messy. -> Corrected
 2. The zoom in zoom out feature is melded opposite I think. -> Corrected 
 3. Also, hover over on Menu - Starter is constant which shouldn't be. -> Corrected
+# coments from Felix 
+1. padding for footer icons 
+2. padding for pricees on menu 
+3. shaddow for restaturant title
+4. remove underline from navigation bar items
+5. put opening hours in middle of the page 
+6. video elment play it in a loop 
+7. bigger picture for chef in full screen
+8. text limitation for full screen: about and contact form section -> Add padding 
+9. remove margin from left side and right in full view 
