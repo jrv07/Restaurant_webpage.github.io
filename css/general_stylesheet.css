@@ -110,6 +110,15 @@
     bottom: 0
 }
 
+.display_bottommiddle {
+    position: absolute;
+    bottom: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
 .display_bottomright {
     position: absolute;
     right: 0;

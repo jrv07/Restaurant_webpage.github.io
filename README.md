@@ -18,11 +18,11 @@ FrontEnd project for ReDi School 2022
 2. The zoom in zoom out feature is melded opposite I think. -> Corrected 
 3. Also, hover over on Menu - Starter is constant which shouldn't be. -> Corrected
 # coments from Felix 
-1. padding for footer icons 
-2. padding for pricees on menu 
-3. shaddow for restaturant title
-4. remove underline from navigation bar items
-5. put opening hours in middle of the page 
+1. padding for footer icons -> Corrected
+2. padding for prices on menu -> Corrected
+3. shaddow for restaturant title -> Corrected
+4. remove underline from navigation bar items -> Corrected
+5. put opening hours in middle of the page -> Corrected
 6. video elment play it in a loop 
 7. bigger picture for chef in full screen
 8. text limitation for full screen: about and contact form section -> Add padding 
