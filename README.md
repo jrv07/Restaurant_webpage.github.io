@@ -23,7 +23,7 @@ FrontEnd project for ReDi School 2022
 3. shaddow for restaturant title -> Corrected
 4. remove underline from navigation bar items -> Corrected
 5. put opening hours in middle of the page -> Corrected
-6. video elment play it in a loop 
-7. bigger picture for chef in full screen
-8. text limitation for full screen: about and contact form section -> Add padding 
-9. remove margin from left side and right in full view 
+6. video elment play it in a loop -> Corrected
+7. bigger picture for chef in full screen -> Corrected
+8. text limitation for full screen: about and contact form section: Add padding -> Corrected
+9. remove margin from left side and right in full view -> Corrected

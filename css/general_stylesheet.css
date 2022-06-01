@@ -457,3 +457,14 @@
 .olivegreen {
     background-color: darkolivegreen;
 }
+
+.wrapper {
+    max-width: 1400px;
+}
+
+.limit_text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+}
